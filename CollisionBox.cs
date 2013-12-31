@@ -45,20 +45,6 @@ namespace engine1.GameObjects
 
             topLeft.X = (float)(Math.Cos(DegreeToRadian(angle2 + rotation)) * square);
             topLeft.Y = (float)(Math.Sin(DegreeToRadian(angle2 + rotation)) * square);
-
-            /*
-            topRight.X = (float)(Math.Cos(DegreeToRadian(angle1 - rotation)) * square);
-            topRight.Y = (float)(Math.Sin(DegreeToRadian(angle1 - rotation)) * square);
-
-            bottomLeft.X = -topRight.X;
-            bottomLeft.Y = -topRight.Y;
-
-            bottomRight.X = (float)(Math.Sin(DegreeToRadian(angle1 - rotation)) * square);
-            bottomRight.Y = (float)(Math.Cos(DegreeToRadian(angle1 - rotation)) * square) * (-1);
-
-            topLeft.X = -bottomRight.X;
-            topLeft.Y = -bottomRight.Y;
-             */
             
 
 
